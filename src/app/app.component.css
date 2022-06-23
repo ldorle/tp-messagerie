@@ -1,0 +1,38 @@
+.main__container {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.entete {
+  /*background: red;*/
+  height: 9%;
+  border: 1px solid black;
+}
+
+.zonePrincipale {
+  border: 1px solid black;
+  /*background: blue;*/
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.zoneGauche {
+  /*background: green;*/
+  border: 1px solid black;
+  width: 33%;
+}
+
+.zoneBas {
+  border: 1px solid black;
+  /*background: deeppink;*/
+  height: 40%;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+}
+
+.sub__container {
+  width: 67%;
+}
